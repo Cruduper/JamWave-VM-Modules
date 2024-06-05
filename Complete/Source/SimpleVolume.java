@@ -9,16 +9,16 @@
 // public boolean Notify( VoltageComponent component, ModuleNotifications notification, double doubleValue, long longValue, int x, int y, Object object )
 // {
    // add your own code here
-   switch( notification )
-   {
-      case Knob_Changed:   // doubleValue is the new VoltageKnob value
-      {
+  //  switch( notification )
+  //  {
+  //     case Knob_Changed:
+  //     {
          if (component == volumeKnob1){
             volume1Value = doubleValue;
          }
-      }
-      break;
-   }
+  //     }
+  //     break;
+  //  }
 // }
 
 
