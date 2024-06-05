@@ -33,8 +33,8 @@
 // }
 
 
-
-// Auto-generated variables
+// (NOTE: Add these UI controls manually! This code will then autogenerate!)
+// Auto-generated variables 
 private VoltageAudioJack outputJack1;
 private VoltageAudioJack inputJack1;
 private VoltageKnob volumeKnob1;
