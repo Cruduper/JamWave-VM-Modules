@@ -6,7 +6,10 @@ This is free, open source code that can added to Cherry Audio's Voltage Module D
 <br><br/> 
 
 ### 📖 Description
+Current Modules:
+Simple Volume - Extremely basic gain adjustment module. The "Hello World" of Digital Signal Processing. 
 
+Stay tuned for more open source modules here, and commercial modules on the Cherry Audio storefront...
 <br><br/>
 ### 🛠 Technologies Used
 
@@ -57,6 +60,8 @@ SOFTWARE.
 ```
 
 Use at your own risk. You are liable for any damage to your ears or audio equipment in the case of malfunction or louder than expected volume changes. Use lower volume levels and output clipping protection when experimenting with audio.  
+
+License does not apply to commented out "boilerplate" code, which comes from Cherry Audio and is reprinted with explicit written permission. Feel free to use the original, uncommented code however you'd like. 
 
 If you have any issues or questions contact me at briefcasemanx@gmail.com.    
 Copyright (c) _2022_  _Eric Crudup_
