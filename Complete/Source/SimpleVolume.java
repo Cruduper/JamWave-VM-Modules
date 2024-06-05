@@ -1,8 +1,8 @@
-/*************************
+/**************  SPECIAL NOTE  ***************
 
 NOTE: for the "Auto Generated Variables" section, you must add each the UI elements shown there to your module MANUALLY inside Module Designer! This code will then autogenerate. Make sure the names match between the code shown below, and the code in your editor. You may need to adjust the names of individual knobs and elements. See instructions in Github repo's README. 
 
-****************************/
+**********************************************/
 
 
 
