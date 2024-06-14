@@ -1,26 +1,32 @@
  # _JamWave Voltage Modular Code_  
 
+
+
+### 🌐 About the Project     
+This is free, open source code that can added to Cherry Audio's Voltage Module Designer in order to make synthesizer and FX modules for their Voltage Modular system. 
+
 ---
-## 🌐 About the Project     
-This is free, open source code that can added to Cherry Audio's Voltage Module Designer in order to make synthesizer and FX Modules for their Voltage Modular system. 
-<br><br/> 
 
 ### 📖 Description
 Current Modules:
 Simple Volume - Extremely basic gain adjustment module. The "Hello World" of Digital Signal Processing. 
 
 Stay tuned for more open source modules here, and commercial modules on the Cherry Audio storefront...
-<br><br/>
+
+---
+
 ### 🛠 Technologies Used
 
 * _Java_
 * _Voltage Module Designer_
 
-<br><br/>
+---
 
 ### 🦠 Known Bugs OR Issues
+none
 
-## 🏁 Getting Started
+---
+
 
 ### ⚙️ Setup/Installation Requirements
 
@@ -28,7 +34,7 @@ Stay tuned for more open source modules here, and commercial modules on the Cher
 * _Create a new module inside Module Designer `file > new`_
 * _Because VMD locks most of the boilerplate code inside it's editor and only allows you to edit the code in specific user-definable functions, the source code in this repo omits the boilerplate and only contains the snippets of code from the user-definable sections, for your convenience. The portions you will want to copy/paste are the parts that are not commented out (**usually** directly underneath the `// add your own code here` comments). Some surrounding boilerplate code is kept to make it easier to see which part of the editor code you will need to navigate to in order to paste, but this boilerplate is commented out._
   * _Inside VMD, you can easily skip around to all user-definable functions in the code (`Initialize()`, `Notify()`, `ProcessSample()`, etc) by clicking the corresponding entries in the `Module` window. 
-* _In the `// Auto-generated variables` there will be a separate variable for every UI element on the plugin (knobs, sliders, jacks, etc). You will have to manually add each of these elements on to the UI of your plugin, but dragging them one at a time from the `controls` window to the `module` window_
+* _In the `// Auto-generated variables` section there will be a separate variable for every UI element that gets added the plugin (knobs, sliders, jacks, etc). You will have to manually add each of these elements that you see in my code to the UI of your plugin so that the variables get auto-generated in your code. Manually add them by dragging them, one at a time, from the `controls` window to the `module` window_. There should be an enclosed diagram that shows how I arranged all of these UI elements, and which element has what name. 
   * _Take note of the naming of the variables of all of the UI elements in code (eg "inputJack1"). When you manually drag UI elements onto your module, you'll have to make sure they are named the same in the `properties` window as they are named in code. You can check the name of a UI element by clicking on it, then looking at the `Variable Name` setting_ 
   * _You may want the `Variable Name`, `Internal Name`, and `Display Name` to all be the same, to avoid any confusion_
 * _Once you have copy/pasted all the parts of the code here, and recreated the UI elements and named them correctly, go to the menu `Build > Build` (or hit F7)_
@@ -64,6 +70,6 @@ Use at your own risk. You are liable for any damage to your ears or audio equipm
 License does not apply to commented out "boilerplate" code, which comes from Cherry Audio and is reprinted with explicit written permission. Feel free to use the original, uncommented code however you'd like. 
 
 If you have any issues or questions contact me at briefcasemanx@gmail.com.    
-Copyright (c) _2022_  _Eric Crudup_
+Copyright (c) _2024_  _Eric Crudup_
 
 <center><a href="#">Return to Top</a></center>
