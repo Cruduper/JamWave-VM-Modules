@@ -28,7 +28,7 @@ none
 ---
 
 
-### ⚙️ Setup/Installation Requirements
+### ⚙️ Setup/Installation
 
 * _Buy, download, and install [Voltage Module Designer (VMD)](https://cherryaudio.com/products/voltage-module-designer)_
 * _Create a new module inside Module Designer `file > new`_
